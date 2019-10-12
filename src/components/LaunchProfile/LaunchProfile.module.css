@@ -1,0 +1,43 @@
+.wrapper {
+  height: 70%;
+  overflow: hidden auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    height: 100vh;
+    max-height: 100%;
+    flex-grow: 1;
+  }
+}
+
+.status {
+  margin-top: 40px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.success {
+  color: #2cb84b;
+}
+
+.failed {
+  color: #ff695e;
+}
+
+.list {
+  column-count: 2;
+  column-gap: 20px;
+  padding-bottom: 30px;
+}
+
+.image {
+  width: 100%;
+  margin-top: 10px;
+}
